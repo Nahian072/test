@@ -14,6 +14,7 @@ public class Test {
         // Navigate to the webpage
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        System.out.println("Browser open successfully");
         driver.close();
     }
 }

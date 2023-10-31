@@ -52,4 +52,15 @@ dp.clickOnLogOut();
     lp.CLoseChromeBrowser();
     }
 
+    @When("I enter envalid credential")
+    public void i_enter_envalid_credential() {
+      lp.enterInvalidValidUserNameAndPassword();
+    }
+
+    @Then("I should see following message Invalid credentials")
+    public void i_should_see_following_message_invalid_credentials() {
+lp.verifyInvalidUserLoginmessage();
+    }
+
+
 }

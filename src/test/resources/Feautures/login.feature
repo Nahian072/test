@@ -10,3 +10,9 @@ Feature: Login And Logout functionality
     And I click on the Logout
     Then I should be laned to the Login page
     Then I close the browser
+  Scenario: Verify user should not aable to login  with invalid credential
+    Given I am on the login page
+    When I enter envalid credential
+    And I click on the Login button
+    Then I should see following message Invalid credentials
+

@@ -1,0 +1,6 @@
+pages\BasePage.class
+steps\LoginSteps.class
+pages\LoginPage.class
+pages\DashboardPage.class
+Test.class
+runner\TestRunner.class

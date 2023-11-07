@@ -3,7 +3,7 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class LoginPage extends BasePage{
+public class MyAccountPage extends BasePage{
 
 
     public void enterValidUserNameAndPassword(){

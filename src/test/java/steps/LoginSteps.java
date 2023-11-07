@@ -1,18 +1,14 @@
 package steps;
 
 import io.cucumber.java.en.*;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import pages.DashboardPage;
-import pages.LoginPage;
-
-import java.util.concurrent.TimeUnit;
+import pages.MyAccountPage;
 
 public class LoginSteps {
-    LoginPage lp;
+    MyAccountPage lp;
     DashboardPage dp;
 public LoginSteps(){
-     lp=new LoginPage();
+     lp=new MyAccountPage();
      dp=new DashboardPage();
 }
 

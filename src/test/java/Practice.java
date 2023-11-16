@@ -13,7 +13,7 @@ public class Practice {
     public void OpenChromeBrowsr(){
         System.setProperty(
                 "webdriver.chrome.driver",
-                "C:\\workspace\\Jenkins_Setup\\chromedriver.exe");
+                "C:\\workspace\\Jenkins_Setup\\chromedriver_119.exe");
         // Instantiate a ChromeDriver class.
         driver = new ChromeDriver();
         driver.manage().window().maximize();

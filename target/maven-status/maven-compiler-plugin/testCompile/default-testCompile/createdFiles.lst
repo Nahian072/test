@@ -1,0 +1,7 @@
+pages\BasePage.class
+pages\DashboardPage.class
+Practice.class
+steps\RegistrationStep.class
+Test.class
+runner\TestRunner.class
+pages\MyAccountPage.class
